@@ -1,4 +1,10 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"ab" = (
+/obj/machinery/modular_computer/console/preset/command{
+	dir = 1
+	},
+/turf/open/floor/plasteel/mono/dark,
+/area/space)
 "ac" = (
 /obj/structure/fluff/beach_umbrella/engine,
 /turf/open/floor/carpet/cyan,
@@ -569,6 +575,10 @@
 /obj/item/gun/ballistic/automatic/pistol/rattlesnake,
 /turf/open/floor/plasteel/dark_2,
 /area/centcom/ferry)
+"bB" = (
+/obj/machinery/computer/camera_advanced,
+/turf/open/floor/plasteel/mono/dark,
+/area/space)
 "bC" = (
 /obj/structure/table/reinforced/plastitaniumglass,
 /obj/item/gun/ballistic/automatic/marksman/boomslang{
@@ -5645,6 +5655,12 @@
 "pB" = (
 /obj/item/clothing/mask/gas/explorer/legacy,
 /turf/open/space/basic,
+/area/space)
+"pC" = (
+/obj/machinery/modular_computer/console/preset/command{
+	dir = 4
+	},
+/turf/open/floor/plasteel/mono/dark,
 /area/space)
 "pD" = (
 /obj/machinery/shower{
@@ -11056,6 +11072,12 @@
 /obj/item/soap/deluxe,
 /turf/open/floor/plasteel/showroomfloor,
 /area/centcom)
+"EE" = (
+/obj/machinery/computer/card/centcom{
+	icon_state = "computer-left"
+	},
+/turf/open/floor/plasteel/mono/dark,
+/area/space)
 "EF" = (
 /obj/structure/chair/wood/wings{
 	dir = 1
@@ -12236,6 +12258,12 @@
 /obj/item/gun/energy/sharplite/al655,
 /turf/open/floor/plasteel/dark_2,
 /area/space)
+"HJ" = (
+/obj/machinery/computer/med_data{
+	icon_state = "computer-right"
+	},
+/turf/open/floor/plasteel/mono/dark,
+/area/space)
 "HK" = (
 /obj/structure/girder,
 /obj/effect/radiation/waste/intense,
@@ -12833,6 +12861,13 @@
 /obj/machinery/newscaster/security_unit/directional/south,
 /turf/open/floor/marble,
 /area/centcom)
+"Jy" = (
+/obj/machinery/computer/apc_control{
+	dir = 1;
+	icon_state = "computer-right"
+	},
+/turf/open/floor/plasteel/mono/dark,
+/area/space)
 "Jz" = (
 /obj/effect/turf_decal/corner/transparent/solgovgold/three_quarters,
 /obj/effect/turf_decal/corner/transparent/neutral{
@@ -12896,6 +12931,10 @@
 /obj/item/gun/ballistic/revolver/montagne,
 /turf/open/floor/plasteel/dark_2,
 /area/centcom/ferry)
+"JK" = (
+/obj/machinery/modular_computer/console/preset/command,
+/turf/open/floor/plasteel/mono/dark,
+/area/space)
 "JL" = (
 /obj/machinery/firealarm/directional/east,
 /turf/open/floor/plasteel/white,
@@ -14492,6 +14531,9 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/centcom/control)
+"NH" = (
+/turf/open/overmap,
+/area/space)
 "NI" = (
 /obj/structure/table/reinforced/plastitaniumglass,
 /obj/item/gun/energy/laser/captain/brazil,
@@ -16393,6 +16435,12 @@
 /obj/structure/fans/tiny/invisible,
 /turf/open/floor/holofloor/hyperspace,
 /area/space)
+"SU" = (
+/obj/machinery/computer/communications{
+	dir = 1
+	},
+/turf/open/floor/plasteel/mono/dark,
+/area/space)
 "SV" = (
 /obj/machinery/light/directional/north,
 /turf/open/floor/plasteel/dark,
@@ -17134,6 +17182,13 @@
 /obj/effect/turf_decal/corner/transparent/neutral/full,
 /turf/open/floor/plasteel/dark,
 /area/tdome/tdomeobserve)
+"UN" = (
+/obj/machinery/computer/aifixer{
+	dir = 1;
+	icon_state = "computer-left"
+	},
+/turf/open/floor/plasteel/mono/dark,
+/area/space)
 "UO" = (
 /obj/effect/turf_decal/corner/transparent/bar/full,
 /obj/effect/turf_decal/industrial/fire{
@@ -25584,7 +25639,7 @@ gd
 gd
 gd
 gd
-gd
+NH
 gd
 gd
 gd
@@ -25778,7 +25833,7 @@ tP
 tP
 tP
 tP
-gd
+NH
 gd
 gd
 gd
@@ -27121,7 +27176,7 @@ gd
 gd
 zb
 tP
-XW
+pC
 XW
 pE
 hE
@@ -27129,7 +27184,7 @@ hE
 hE
 ti
 XW
-XW
+pC
 tP
 zb
 gd
@@ -27313,7 +27368,7 @@ gd
 gd
 gd
 tP
-XW
+EE
 hE
 XW
 pE
@@ -27323,7 +27378,7 @@ qn
 ti
 XW
 hE
-XW
+Jy
 tP
 gd
 gd
@@ -27506,7 +27561,7 @@ gd
 gd
 gd
 tP
-XW
+HJ
 hE
 XW
 Wc
@@ -27516,7 +27571,7 @@ qn
 VH
 XW
 hE
-XW
+UN
 tP
 gd
 gd
@@ -28282,9 +28337,9 @@ KB
 qn
 qn
 VH
-XW
+bB
 hE
-XW
+SU
 Wc
 qn
 qn
@@ -28471,6 +28526,7 @@ gd
 gd
 tP
 hE
+ab
 hE
 hE
 hE
@@ -28480,8 +28536,7 @@ hE
 hE
 hE
 hE
-hE
-hE
+JK
 hE
 tP
 gd
@@ -29247,9 +29302,9 @@ zb
 hE
 hE
 zb
-gd
-gd
-gd
+pI
+pI
+pI
 zb
 hE
 hE
@@ -29435,19 +29490,19 @@ gd
 gd
 gd
 zb
-gd
-gd
-gd
-gd
+pI
+pI
+pI
+pI
 zb
-gd
-gd
-gd
+pI
+pI
+pI
 zb
-gd
-gd
-gd
-gd
+pI
+pI
+pI
+pI
 zb
 gd
 gd
@@ -29628,19 +29683,19 @@ gd
 gd
 gd
 zb
-gd
-gd
-gd
-gd
-gd
-gd
-gd
-gd
-gd
-gd
-gd
-gd
-gd
+pI
+pI
+pI
+pI
+pI
+pI
+pI
+pI
+pI
+pI
+pI
+pI
+pI
 zb
 gd
 gd
@@ -29821,19 +29876,19 @@ gd
 gd
 gd
 gd
-gd
-gd
-gd
-gd
-gd
-gd
-gd
-gd
-gd
-gd
-gd
-gd
-gd
+pI
+pI
+pI
+pI
+pI
+pI
+pI
+pI
+pI
+pI
+pI
+pI
+pI
 gd
 gd
 gd
@@ -30014,19 +30069,19 @@ gd
 gd
 gd
 gd
-gd
-gd
-gd
-gd
-gd
-gd
-gd
-gd
-gd
-gd
-gd
-gd
-gd
+pI
+pI
+pI
+pI
+pI
+pI
+pI
+pI
+pI
+pI
+pI
+pI
+pI
 gd
 gd
 gd
